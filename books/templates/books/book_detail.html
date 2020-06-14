@@ -1,0 +1,7 @@
+<h1>Book Details</h1>
+<h2>Title: {{ book.title }}</h2>
+<h2>Author: {{ book.author }}</h2>
+<h2>Genre: {{ book.genre }}</h2>
+<h2>Pages: {{ book.pages }}</h2>
+<hr/>
+<a href="{% url 'books:book_list' %}">Back</a>
